@@ -1,0 +1,43 @@
+/* src/App.css */
+.app.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .app.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Ensure buttons and text are visible in dark mode */
+  .app.dark button {
+    background-color: #555;
+    color: white;
+  }
+  
+  .app.dark .menu-item {
+    background-color: #444;
+    border-color: #666;
+  }
+  
+  .app.dark .order-list {
+    background-color: #444;
+  }
+  
+  .app.dark .order-item {
+    border-bottom-color: #666;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

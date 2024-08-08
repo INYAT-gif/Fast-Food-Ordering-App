@@ -1,0 +1,57 @@
+/* src/components/OrderList.css */
+.order-list {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .app.dark .order-list {
+    background-color: #444;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .app.dark .order-item {
+    border-bottom-color: #666;
+  }
+  
+  .order-item span {
+    flex-grow: 1;
+    color: #333;
+  }
+  
+  .app.dark .order-item span {
+    color: #ddd;
+  }
+  
+  .order-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .order-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    text-align: right;
+    color: #333;
+  }
+  
+  .app.dark h3 {
+    color: #ddd;
+  }
+  

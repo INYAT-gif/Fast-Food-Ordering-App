@@ -1,0 +1,75 @@
+/* src/components/Menu.css */
+
+.menu-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .app.dark .menu-container {
+    background-color: #444;
+  }
+  
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .app.dark .menu-item {
+    background-color: #555;
+    border-color: #666;
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .app.dark .menu-item h5 {
+    color: #ddd;
+  }
+  
+  .menu-item p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .app.dark .menu-item p {
+    color: #bbb;
+  }
+  
+  .menu-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .menu-item button:hover {
+    background-color: #218838;
+  }
+  
